@@ -9,6 +9,7 @@ import {
 // Import modules for this app
 import { BasicLayout } from './Demos/BasicLayout';
 import { NestedLayout } from './Demos/NestedLayout';
+import { AndroidToolbarDemo } from './Demos/AndroidToolbar'
 
 // Setup main wrapper
 export default class reactNativeDemos extends Component {
@@ -17,7 +18,7 @@ export default class reactNativeDemos extends Component {
             // To see any component working, simply add the html tag required for it. 
             // For example to see "Basic Layout" working, add "<BasicLayout />" on the next line. 
             // Or to see the "Nested Layout" demo working, change it to "<NestedLayout />" and reload the app
-            <NestedLayout />
+            <AndroidToolbarDemo />
         );
     }
 }
