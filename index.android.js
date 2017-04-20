@@ -21,7 +21,7 @@ export default class reactNativeDemos extends Component {
             // To see any component working, simply add the html tag required for it. 
             // For example to see "Basic Layout" working, add "<BasicLayout />" on the next line. 
             // Or to see the "Nested Layout" demo working, change it to "<NestedLayout />" and reload the app
-            <BasicTabs />
+            <NestedLayout />
         );
     }
 }

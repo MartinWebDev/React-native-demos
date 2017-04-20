@@ -4,7 +4,8 @@ import {
     Text, 
     StyleSheet, 
     View, 
-    Image
+    Image, 
+    TabBarIOS
 } from 'react-native';
 
 export class NestedLayout extends Component {
