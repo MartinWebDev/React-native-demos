@@ -13,6 +13,7 @@ import { AndroidToolbarDemo } from './Demos/AndroidToolbar';
 import { BasicNavigation } from './Demos/BasicNavigation.WIP';
 import { BasicNavigationWithTransitions } from './Demos/BasicNavigationWithTransitions';
 import { BasicTabs } from './Demos/BasicTabs';
+import { ReactNavDemo } from './Demos/FullNavigation';
 
 // Setup main wrapper
 export default class reactNativeDemos extends Component {
@@ -21,7 +22,7 @@ export default class reactNativeDemos extends Component {
             // To see any component working, simply add the html tag required for it. 
             // For example to see "Basic Layout" working, add "<BasicLayout />" on the next line. 
             // Or to see the "Nested Layout" demo working, change it to "<NestedLayout />" and reload the app
-            <NestedLayout />
+            <ReactNavDemo />
         );
     }
 }
