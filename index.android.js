@@ -1,9 +1,7 @@
 // Import main react and react-native modules
 import React, { Component } from 'react';
 import {
-    AppRegistry,
-    View, 
-    Text
+    AppRegistry
 } from 'react-native';
 
 // Import modules for this app

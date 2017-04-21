@@ -14,12 +14,14 @@
  */
 
 // Import main React Components
-import React , { Component } from 'react';
+import React, { Component } from 'react';
 
 import {
-  Text, 
-  View, 
-  Button
+    AppRegistry, 
+    Text, 
+    View, 
+    Button, 
+    StyleSheet
 } from 'react-native';
 
 // Import components needed from react-navigation
@@ -33,19 +35,37 @@ import { AccountDetailsScreen } from './RNav/AccountDetailsScreen';
 
 // Set up main demo screen and navigation
 const MainScreenNavigator = TabNavigator({
-    Recent: { screen: RecentChatsScreen }, 
-    All: { screen: AllContactsScreen }
-}, {
+    Home: { screen: HomeScreen }, 
+    Products: { screen: ProductsScreen }, 
+    Cart: { screen: ShoppingCartScreen }, 
+    Account: { screen: AccountDetailsScreen }
+}, 
+{
     navigationOptions: {
         headerVisible: false
-    }
+    }, 
+    tabBarOptions: {
+        activeTintColor: "#0700AB", 
+        showIcon: true, 
+        showLabel: false, 
+        style: { 
+            backgroundColor: "#0072D9"
+        }, 
+        indicatorStyle: {
+            backgroundColor: "#0700AB"
+        }
+    }, 
+    tabBarPosition: "bottom"
 });
 
-MainScreenNavigator.navigationOptions = {
-  title: 'My Chats',
-};
-
 export const ReactNavDemo = StackNavigator({
-  Home: { screen: MainScreenNavigator },
-  Chat: { screen: ChatScreen },
+  Home: { screen: MainScreenNavigator }
+});
+
+// Style for the main navigation wrapper - TODO Find a way to pass this is as a param so all files can access it
+const styles = StyleSheet.create({
+    icon: {
+        width: 24,
+        height: 24
+    },
 });
