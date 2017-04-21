@@ -1,5 +1,5 @@
 // Import main React Components
-import React , { Component } from 'react';
+import React, { Component } from 'react';
 
 import {
     Text, 
@@ -9,6 +9,8 @@ import {
     StyleSheet
 } from 'react-native';
 
+import { GlobalStyles } from './Styles/GlobalStyles';
+
 // Build up and export component
 export class AccountDetailsScreen extends Component {
     static navigationOptions = {
@@ -16,7 +18,7 @@ export class AccountDetailsScreen extends Component {
         tabBarIcon: ({tintColor}) => (
             <Image 
                 source={require("./icons/Settings-24.png")} 
-                style={[styles.icon, { tintColor: tintColor }]} 
+                style={[GlobalStyles.tabIcon, { tintColor: tintColor }]} 
             />
         )
     };
