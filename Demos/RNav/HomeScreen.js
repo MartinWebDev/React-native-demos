@@ -15,9 +15,9 @@ import { GlobalStyles } from './Styles/GlobalStyles';
 export class HomeScreen extends Component {
     static navigationOptions = {
         tabBarLabel: "Home", 
-        tabBarIcon: ({tintColor}) => (
+        tabBarIcon: ({focused, tintColor}) => (
             <Image 
-                source={require("./icons/Home-24.png")} 
+                source={focused ? require("./icons/Home-Filled-24.png") : require("./icons/Home-24.png")} 
                 style={[GlobalStyles.tabIcon, { tintColor: tintColor }]} 
             />
         )

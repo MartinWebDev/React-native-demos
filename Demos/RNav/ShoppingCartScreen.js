@@ -15,9 +15,9 @@ import { GlobalStyles } from './Styles/GlobalStyles';
 export class ShoppingCartScreen extends Component {
     static navigationOptions = {
         tabBarLabel: "Home", 
-        tabBarIcon: ({tintColor}) => (
+        tabBarIcon: ({focused, tintColor}) => (
             <Image 
-                source={require("./icons/Shopping-Cart-Loaded-24.png")} 
+                source={focused ? require("./icons/Shopping-Cart-Loaded-Filled-24.png") : require("./icons/Shopping-Cart-Loaded-24.png")} 
                 style={[GlobalStyles.tabIcon, { tintColor: tintColor }]} 
             />
         )

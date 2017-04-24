@@ -35,8 +35,9 @@ import { AccountDetailsScreen } from './RNav/AccountDetailsScreen';
 
 // Set up main demo screen and navigation
 const MainScreenNavigator = TabNavigator({
-    Home: { screen: HomeScreen }, 
+    
     Products: { screen: ProductsScreen }, 
+    Something: { screen: HomeScreen }, 
     Cart: { screen: ShoppingCartScreen }, 
     Account: { screen: AccountDetailsScreen }
 }, 

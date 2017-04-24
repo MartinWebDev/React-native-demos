@@ -2,57 +2,92 @@
     {
         "productId": 1, 
         "productName": "Jackson JS1X", 
-        "productImageUri": "./productImages/thumbs/jacksonjs1x.jpg", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/jacksonjs1x.jpg", 
         "productPrice": 155.00, 
         "productWasPrice": null
     }, 
     {
         "productId": 2, 
-        "productName": "ESP E-II Seven", 
-        "productImageUri": "./productImages/thumbs/espeiiseven.jpg", 
+        "productName": "ESP E-II M-II Seven string", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/espeiiseven.jpg", 
         "productPrice": 1927.02, 
         "productWasPrice": 2299.00
     }, 
     {
         "productId": 3, 
         "productName": "Laney Ironheart 120watt", 
-        "productImageUri": "./productImages/thumbs/ironheartirt120h.jpg", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/ironheartirt120h.jpg", 
         "productPrice": 744.32, 
         "productWasPrice": 888.00
     }, 
     {
         "productId": 4, 
         "productName": "Mesa Boogie Triple Rectifier", 
-        "productImageUri": "./productImages/thumbs/mesaboogietriplerec.jpg", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/mesaboogietriplerec.jpg", 
         "productPrice": 2673.86, 
         "productWasPrice": null
     }, 
     {
         "productId": 5, 
         "productName": "Zakk Wylde Crybaby Wah", 
-        "productImageUri": "./productImages/thumbs/zakwyldewah.jpg", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/zakwyldewah.jpg", 
         "productPrice": 132.44, 
         "productWasPrice": null
     }, 
     {
         "productId": 6, 
         "productName": "Line 6 Relay G90 Wireless", 
-        "productImageUri": "./productImages/thumbs/line6g90.jpg", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/line6g90.jpg", 
         "productPrice": 493.70, 
         "productWasPrice": 512.25
     }, 
     {
         "productId": 7, 
         "productName": "Earnie Ball Heavy Bottom Strings", 
-        "productImageUri": "./productImages/thumbs/earnieballheavybottom.jpg", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/earnieballheavybottom.jpg", 
         "productPrice": 6.90, 
         "productWasPrice": null
     }, 
     {
         "productId": 8, 
         "productName": "EMG Het Set Active Pickups", 
-        "productImageUri": "./productImages/thumbs/emghetset", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/emghetset.jpg", 
         "productPrice": 165.96, 
         "productWasPrice": 198.99
+    }, 
+    {
+        "productId": 9, 
+        "productName": "PLACEHOLDER ITEM", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/emghetset.jpg", 
+        "productPrice": 999.98, 
+        "productWasPrice": 999.99
+    }, 
+    {
+        "productId": 10, 
+        "productName": "PLACEHOLDER ITEM", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/emghetset.jpg", 
+        "productPrice": 999.98, 
+        "productWasPrice": 999.99
+    }, 
+    {
+        "productId": 11, 
+        "productName": "PLACEHOLDER ITEM", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/emghetset.jpg", 
+        "productPrice": 999.98, 
+        "productWasPrice": 999.99
+    }, 
+    {
+        "productId": 12, 
+        "productName": "PLACEHOLDER ITEM", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/emghetset.jpg", 
+        "productPrice": 999.98, 
+        "productWasPrice": 999.99
+    }, 
+    {
+        "productId": 13, 
+        "productName": "PLACEHOLDER ITEM", 
+        "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/emghetset.jpg", 
+        "productPrice": 999.98, 
+        "productWasPrice": 999.99
     }
 ]

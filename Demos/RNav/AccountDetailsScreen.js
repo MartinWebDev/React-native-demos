@@ -15,9 +15,9 @@ import { GlobalStyles } from './Styles/GlobalStyles';
 export class AccountDetailsScreen extends Component {
     static navigationOptions = {
         tabBarLabel: "Home", 
-        tabBarIcon: ({tintColor}) => (
+        tabBarIcon: ({focused, tintColor}) => (
             <Image 
-                source={require("./icons/Settings-24.png")} 
+                source={focused ? require("./icons/Settings-Filled-24.png") : require("./icons/Settings-24.png")} 
                 style={[GlobalStyles.tabIcon, { tintColor: tintColor }]} 
             />
         )
@@ -25,7 +25,7 @@ export class AccountDetailsScreen extends Component {
     
     render () {
         return (
-            <Text>{JSON.stringify(this.state.apiDetails)}</Text>
+            <Text>Hello World</Text>
         );
     }
 }
