@@ -59,13 +59,5 @@ const MainScreenNavigator = TabNavigator({
 });
 
 export const ReactNavDemo = StackNavigator({
-  Home: { screen: MainScreenNavigator }
-});
-
-// Style for the main navigation wrapper - TODO Find a way to pass this is as a param so all files can access it
-const styles = StyleSheet.create({
-    icon: {
-        width: 24,
-        height: 24
-    },
+    Home: { screen: MainScreenNavigator }
 });

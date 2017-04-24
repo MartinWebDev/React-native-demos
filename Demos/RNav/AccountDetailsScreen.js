@@ -25,7 +25,7 @@ export class AccountDetailsScreen extends Component {
     
     render () {
         return (
-            <Text>Hello world</Text>
+            <Text>{JSON.stringify(this.state.apiDetails)}</Text>
         );
     }
 }
