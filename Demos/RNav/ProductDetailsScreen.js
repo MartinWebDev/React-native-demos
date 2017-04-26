@@ -18,7 +18,7 @@ export class ProductDetailsScreen extends Component {
         const { productId } = state.params;
 
         return {
-            title: "Product Details: " + productIdy
+            title: "Product Details: " + productId
         };
     };
 
