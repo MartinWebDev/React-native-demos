@@ -17,7 +17,6 @@
 import React, { Component } from 'react';
 
 import {
-    AppRegistry, 
     Text, 
     View, 
     Button, 
@@ -33,11 +32,12 @@ import { ProductsScreen } from './RNav/ProductsScreen';
 import { ShoppingCartScreen } from './RNav/ShoppingCartScreen';
 import { AccountDetailsScreen } from './RNav/AccountDetailsScreen';
 
+import { ProductDetailsScreen } from './RNav/ProductDetailsScreen';
+
 // Set up main demo screen and navigation
 const MainScreenNavigator = TabNavigator({
-    
+    Home: { screen: HomeScreen }, 
     Products: { screen: ProductsScreen }, 
-    Something: { screen: HomeScreen }, 
     Cart: { screen: ShoppingCartScreen }, 
     Account: { screen: AccountDetailsScreen }
 }, 
@@ -60,5 +60,6 @@ const MainScreenNavigator = TabNavigator({
 });
 
 export const ReactNavDemo = StackNavigator({
-    Home: { screen: MainScreenNavigator }
+    Home: { screen: MainScreenNavigator }, 
+    ProductDetails: { screen: ProductDetailsScreen }
 });
