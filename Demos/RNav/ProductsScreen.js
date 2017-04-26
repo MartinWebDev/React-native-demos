@@ -109,9 +109,23 @@ class ProductsList extends Component {
                     <TouchableHighlight activeOpacity={0.8} underlayColor="#0074D9" onPress={() => {
                         this.handleProductClick(product.productId);
                     }}>
-                        <View>
-                            <Image source={{ uri: product.productImageUri }} style={GlobalStyles.productThumbnail} />
-                            <Text>{product.productName}</Text>
+                        <View style={{ flex: 1, flexDirection: "column", justifyContent: "space-between" }}>
+                            <View style={{ flex: 1, flexGrow: 10 }}>
+                                <Image source={{ uri: product.productImageUri }} style={GlobalStyles.productThumbnail} />
+                                <Text>{product.productName}</Text>
+                            </View>
+                            
+                            <View style={{ flex: 1, flexDirection: "row" }}>
+                                <View style={{ flex: 1 }}>
+                                    <Text>{"$" + product.productPrice.toFixed(2)}</Text>
+                                </View>
+
+                                <View style={{ flex: 1 }}>
+                                    <Text style={{ textAlign: "right" }}>
+                                        {(product.productWasPrice != null && product.productWasPrice > 0) ? "$" + product.productWasPrice.toFixed(2) : ""}
+                                    </Text>
+                                </View>
+                            </View>
                         </View>
                     </TouchableHighlight>
                 </View>
