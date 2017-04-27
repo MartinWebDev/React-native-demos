@@ -14,7 +14,7 @@ import { GlobalStyles } from './Styles/GlobalStyles';
 // Build up and export component
 export class ShoppingCartScreen extends Component {
     static navigationOptions = {
-        tabBarLabel: "Home", 
+        tabBarLabel: "Cart", 
         tabBarIcon: ({focused, tintColor}) => (
             <Image 
                 source={focused ? require("./icons/Shopping-Cart-Loaded-Filled-24.png") : require("./icons/Shopping-Cart-Loaded-24.png")} 

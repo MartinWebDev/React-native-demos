@@ -4,56 +4,88 @@
         "productName": "Jackson JS1X", 
         "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/jacksonjs1x.jpg", 
         "productPrice": 155.00, 
-        "productWasPrice": null
+        "productWasPrice": null, 
+
+        "productFullImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/jacksonjs1x.jpg", 
+        "productDescription": "Phasellus ac blandit felis. Nunc quis vestibulum risus, vitae auctor risus. Donec nec orci vehicula nulla auctor bibendum non vitae dui. Phasellus luctus dignissim neque non pulvinar. Morbi eu ipsum nisi. Vestibulum eu tortor porttitor, ultrices lacus in, pretium justo. Proin vel dictum neque, sit amet convallis nunc. Integer sit amet viverra velit, nec efficitur lectus. Aliquam venenatis ex mi, vitae scelerisque ipsum dapibus id. Phasellus gravida ipsum et tempor lobortis. Aenean vel dolor felis. Donec mollis, ligula quis convallis commodo, purus mi fermentum orci, ut commodo lectus augue bibendum ipsum. Integer ipsum erat, rhoncus sit amet elit eu, molestie porttitor risus. Phasellus eget eros id magna consectetur interdum. Praesent vehicula enim ac odio finibus condimentum. Maecenas convallis, turpis ac ultricies tincidunt, magna nibh tincidunt lorem, a sollicitudin erat orci id mi. Praesent gravida finibus dolor eget tristique. Nunc sem neque, sagittis in lacus vel, ultricies gravida est. Mauris hendrerit facilisis lectus, ac pellentesque nibh luctus dignissim. Vestibulum ultricies lacus eu iaculis varius. Proin ut arcu molestie, accumsan tortor ac, porta nunc. Suspendisse aliquam orci id est luctus ornare. Praesent viverra fringilla facilisis. Integer consequat nibh eu augue rhoncus rhoncus. Mauris urna tortor, lacinia vitae pretium sodales, fringilla ac nunc.", 
+        "productQuantityInStock": 7
     }, 
     {
         "productId": 2, 
         "productName": "ESP E-II M-II Seven string", 
         "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/espeiiseven.jpg", 
         "productPrice": 1927.02, 
-        "productWasPrice": 2299.00
+        "productWasPrice": 2299.00, 
+
+        "productFullImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/espeiiseven.jpg", 
+        "productDescription": "Phasellus ac blandit felis. Nunc quis vestibulum risus, vitae auctor risus. Donec nec orci vehicula nulla auctor bibendum non vitae dui. Phasellus luctus dignissim neque non pulvinar. Morbi eu ipsum nisi. Vestibulum eu tortor porttitor, ultrices lacus in, pretium justo. Proin vel dictum neque, sit amet convallis nunc. Integer sit amet viverra velit, nec efficitur lectus. Aliquam venenatis ex mi, vitae scelerisque ipsum dapibus id. Phasellus gravida ipsum et tempor lobortis. Aenean vel dolor felis. Donec mollis, ligula quis convallis commodo, purus mi fermentum orci, ut commodo lectus augue bibendum ipsum. Integer ipsum erat, rhoncus sit amet elit eu, molestie porttitor risus. Phasellus eget eros id magna consectetur interdum. Praesent vehicula enim ac odio finibus condimentum. Maecenas convallis, turpis ac ultricies tincidunt, magna nibh tincidunt lorem, a sollicitudin erat orci id mi. Praesent gravida finibus dolor eget tristique. Nunc sem neque, sagittis in lacus vel, ultricies gravida est. Mauris hendrerit facilisis lectus, ac pellentesque nibh luctus dignissim. Vestibulum ultricies lacus eu iaculis varius. Proin ut arcu molestie, accumsan tortor ac, porta nunc. Suspendisse aliquam orci id est luctus ornare. Praesent viverra fringilla facilisis. Integer consequat nibh eu augue rhoncus rhoncus. Mauris urna tortor, lacinia vitae pretium sodales, fringilla ac nunc.", 
+        "productQuantityInStock": 1
     }, 
     {
         "productId": 3, 
         "productName": "Laney Ironheart 120watt", 
         "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/ironheartirt120h.jpg", 
         "productPrice": 744.32, 
-        "productWasPrice": 888.00
+        "productWasPrice": 888.00, 
+
+        "productFullImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/ironheartirt120h.jpg", 
+        "productDescription": "Phasellus ac blandit felis. Nunc quis vestibulum risus, vitae auctor risus. Donec nec orci vehicula nulla auctor bibendum non vitae dui. Phasellus luctus dignissim neque non pulvinar. Morbi eu ipsum nisi. Vestibulum eu tortor porttitor, ultrices lacus in, pretium justo. Proin vel dictum neque, sit amet convallis nunc. Integer sit amet viverra velit, nec efficitur lectus. Aliquam venenatis ex mi, vitae scelerisque ipsum dapibus id. Phasellus gravida ipsum et tempor lobortis. Aenean vel dolor felis. Donec mollis, ligula quis convallis commodo, purus mi fermentum orci, ut commodo lectus augue bibendum ipsum. Integer ipsum erat, rhoncus sit amet elit eu, molestie porttitor risus. Phasellus eget eros id magna consectetur interdum. Praesent vehicula enim ac odio finibus condimentum. Maecenas convallis, turpis ac ultricies tincidunt, magna nibh tincidunt lorem, a sollicitudin erat orci id mi. Praesent gravida finibus dolor eget tristique. Nunc sem neque, sagittis in lacus vel, ultricies gravida est. Mauris hendrerit facilisis lectus, ac pellentesque nibh luctus dignissim. Vestibulum ultricies lacus eu iaculis varius. Proin ut arcu molestie, accumsan tortor ac, porta nunc. Suspendisse aliquam orci id est luctus ornare. Praesent viverra fringilla facilisis. Integer consequat nibh eu augue rhoncus rhoncus. Mauris urna tortor, lacinia vitae pretium sodales, fringilla ac nunc.", 
+        "productQuantityInStock": 17
     }, 
     {
         "productId": 4, 
         "productName": "Mesa Boogie Triple Rectifier", 
         "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/mesaboogietriplerec.jpg", 
         "productPrice": 2673.86, 
-        "productWasPrice": null
+        "productWasPrice": null, 
+
+        "productFullImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/mesaboogietriplerec.jpg", 
+        "productDescription": "", 
+        "productQuantityInStock": 15
     }, 
     {
         "productId": 5, 
         "productName": "Zakk Wylde Crybaby Wah", 
         "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/zakwyldewah.jpg", 
         "productPrice": 132.44, 
-        "productWasPrice": null
+        "productWasPrice": null, 
+
+        "productFullImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/zakwyldewah.jpg", 
+        "productDescription": "", 
+        "productQuantityInStock": 0
     }, 
     {
         "productId": 6, 
         "productName": "Line 6 Relay G90 Wireless", 
         "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/line6g90.jpg", 
         "productPrice": 493.70, 
-        "productWasPrice": 512.25
+        "productWasPrice": 512.25, 
+
+        "productFullImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/line6g90.jpg", 
+        "productDescription": "", 
+        "productQuantityInStock": 2
     }, 
     {
         "productId": 7, 
         "productName": "Earnie Ball Heavy Bottom Strings", 
         "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/earnieballheavybottom.jpg", 
         "productPrice": 6.90, 
-        "productWasPrice": null
+        "productWasPrice": null, 
+
+        "productFullImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/earnieballheavybottom.jpg", 
+        "productDescription": "", 
+        "productQuantityInStock": 7
     }, 
     {
         "productId": 8, 
         "productName": "EMG Het Set Active Pickups", 
         "productImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/thumbs/emghetset.jpg", 
         "productPrice": 165.96, 
-        "productWasPrice": 198.99
+        "productWasPrice": 198.99, 
+
+        "productFullImageUri": "https://chinasoftwarecloud.martinwebdev.co.uk/productImages/emghetset.jpg", 
+        "productDescription": "", 
+        "productQuantityInStock": 8
     }, 
     {
         "productId": 9, 

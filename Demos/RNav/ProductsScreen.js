@@ -33,7 +33,7 @@ export class ProductsScreen extends Component {
 
     static navigationOptions = ({ navigation,  screenProps }) => {
         return {
-            tabBarLabel: "Home", 
+            tabBarLabel: "Products", 
             tabBarIcon: ({focused, tintColor}) => (
                 <Image 
                     source={focused ? require("./icons/Shopping-Bag-Filled-24.png") : require("./icons/Shopping-Bag-24.png")} 
@@ -105,23 +105,27 @@ class ProductsList extends Component {
     render () {
         var productNodes = this.props.products.map((product) => {
             return (
-                <View key={product.productId} style={productStyles.thumbView}>
-                    <TouchableHighlight activeOpacity={0.8} underlayColor="#0074D9" onPress={() => {
+                <View key={product.productId} 
+                    style={[productStyles.thumbView, {justifyContent: "space-between", backgroundColor: "#FFF"}]}
+                >
+                    <TouchableHighlight style={{flex: 1, backgroundColor: "#FFF"}} activeOpacity={0.8} underlayColor="#0074D9" onPress={() => {
                         this.handleProductClick(product.productId);
                     }}>
-                        <View style={{ flex: 1, flexDirection: "column", justifyContent: "space-between" }}>
-                            <View style={{ flex: 1, flexGrow: 10 }}>
-                                <Image source={{ uri: product.productImageUri }} style={GlobalStyles.productThumbnail} />
-                                <Text>{product.productName}</Text>
+                        <View style={{ flex: 1, flexDirection: "column", backgroundColor: "#FFF" }}>
+                            <View style={{ flex: 1, flexGrow: 10, backgroundColor: "#FFF" }}>
+                                <View style={{ alignItems: "center" }}>
+                                    <Image source={{ uri: product.productImageUri }} style={GlobalStyles.productThumbnail} />
+                                </View>
+                                <Text style={productStyles.thumbTitle} numberOfLines={1} ellipsizeMode={"tail"}>{product.productName}</Text>
                             </View>
                             
-                            <View style={{ flex: 1, flexDirection: "row" }}>
+                            <View style={{ flex: 1, flexDirection: "row", backgroundColor: "#FFF" }}>
                                 <View style={{ flex: 1 }}>
-                                    <Text>{"$" + product.productPrice.toFixed(2)}</Text>
+                                    <Text style={productStyles.thumbPrice}>{"$" + product.productPrice.toFixed(2)}</Text>
                                 </View>
 
                                 <View style={{ flex: 1 }}>
-                                    <Text style={{ textAlign: "right" }}>
+                                    <Text style={productStyles.thumbWasPrice}>
                                         {(product.productWasPrice != null && product.productWasPrice > 0) ? "$" + product.productWasPrice.toFixed(2) : ""}
                                     </Text>
                                 </View>
@@ -162,18 +166,30 @@ const productStyles = StyleSheet.create({
         margin: 4
     }, 
     thumbView: {
-        width: 160, 
+        width: 185, 
         borderWidth: 1, 
         borderColor: "#CCC", 
         backgroundColor: "#FFF", 
         padding: 4, 
         margin: 4
     }, 
-    thumbTitle: {}, 
-    thumbPrice: {}, 
-    thumbWasPrice: {}, 
+    thumbTitle: {
+        fontWeight: "bold", 
+        fontSize: 16
+    }, 
+    thumbPrice: {
+        fontSize: 20
+    }, 
+    thumbWasPrice: {
+        textAlignVertical: "bottom", 
+        flex: 1, 
+        textAlign: "right", 
+        color: "#FF7575", 
+        textDecorationLine: "line-through", 
+        fontStyle: "italic"
+    }, 
     thumbPlaceholder: {
-        width: 160, 
+        width: 185, 
         margin: 4
     }
 });

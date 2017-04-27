@@ -46,11 +46,17 @@ const MainScreenNavigator = TabNavigator({
         headerVisible: false
     }, 
     tabBarOptions: {
+        iconStyle: {
+            width: 24, 
+            height: 24
+        }, 
+
         activeTintColor: "#0700AB", 
         showIcon: true, 
-        showLabel: false, 
+        showLabel: true, 
         style: { 
-            backgroundColor: "#0072D9"
+            backgroundColor: "#0072D9", 
+            height: 60
         }, 
         indicatorStyle: {
             backgroundColor: "#0700AB"

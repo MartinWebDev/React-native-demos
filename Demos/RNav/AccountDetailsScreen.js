@@ -14,7 +14,7 @@ import { GlobalStyles } from './Styles/GlobalStyles';
 // Build up and export component
 export class AccountDetailsScreen extends Component {
     static navigationOptions = {
-        tabBarLabel: "Home", 
+        tabBarLabel: "Account", 
         tabBarIcon: ({focused, tintColor}) => (
             <Image 
                 source={focused ? require("./icons/Settings-Filled-24.png") : require("./icons/Settings-24.png")} 

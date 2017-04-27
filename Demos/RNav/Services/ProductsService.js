@@ -33,4 +33,15 @@ export class ProductService extends Service {
         //     return response.error;
         // });
     }
+
+    getProductDetails(productId) {
+        var allProds = productListJSON;
+        
+        for (var i = 0; i < allProds.length; i++) {
+            if (allProds[i].productId == productId) 
+                return allProds[i];
+        }
+
+        return null;
+    }
 }

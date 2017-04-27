@@ -41,15 +41,26 @@ export class HomeScreen extends Component {
                 });
             }}>
                 <View style={homeStyles.wrapper}>
+                    {/* This is just temporary. A single click button to navigate directly to the product detail page
+                    This is because I'm lazy and don't want to go through the whole workflow each time I edit the file
+                    and reload the app */}
+
+                    <Button style={{height: 200}} title="GO TO PRODUCT 3" onPress={
+                        () => {
+                            this.props.navigation.navigate("ProductDetails", { productId: 3 });
+                        }
+                    } />
+
                     <View style={homeStyles.header}>
                         <Image source={require("./screenImages/logo.jpg")} />
                     </View>
 
                     <View style={homeStyles.bannerArea} >
-                        <Image source={
-                            this.state.isPortrait ? 
-                                require("./screenImages/Home/BannerPortrait.jpg") : 
-                                require("./screenImages/Home/BannerLandscape.jpg")} 
+                        <Image style={{ height: 250 }}
+                            source={
+                                this.state.isPortrait ? 
+                                    require("./screenImages/Home/BannerPortrait.jpg") : 
+                                    require("./screenImages/Home/BannerLandscape.jpg")} 
                         />
                     </View>
 

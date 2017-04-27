@@ -9,6 +9,10 @@ export const GlobalStyles = StyleSheet.create({
         width: 24,
         height: 24
     }, 
+    primaryTabIcon: {
+        width: 44,
+        height: 44
+    }, 
     productThumbnail: { 
         height: 150, 
         width: 150
